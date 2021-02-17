@@ -1,9 +1,8 @@
-from classroom import Student
-from person import Person
+from classroom import Student, Teacher
 
 if __name__ == '__main__':
     a = Student("Sebastian", "Cardoch", "physics")
     a.printNameSubject()
 
-    a = Student("Filipe", "Maya", "Scientific Programming in Python")
-    a.printNameSubject()
+    a = Teacher("Filipe", "Maya", "Scientific Programming in Python")
+    a.printNameCourse()
